@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript day 2</title>
+</head>
+<body>
+    <script>
+        // Level 1
+        let challenge = " 30 Days of JavaScript "
+        console.log(challenge)
+        console.log(challenge.length)
+        console.log(challenge.toUpperCase())
+        console.log(challenge.toLowerCase())
+        console.log(challenge.substring(0,2))
+        console.log(challenge.substring(2,challenge.length))
+        console.log(challenge.includes("Script"))
+        console.log(challenge.split(""))
+
+        let techCompanies = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
+        console.log(techCompanies.split(","))
+        console.log(challenge.replace("JavaScript","Python"))
+        console.log(challenge.charAt(15))
+        console.log(challenge.indexOf("J"))
+        console.log(challenge.indexOf("a"))
+        let sentence = "You cannot end a sentence with because because because is a conjunction"
+        console.log(sentence.indexOf("because"))
+        console.log(sentence.lastIndexOf("because"))
+        console.log(sentence.search("because"))
+        console.log(challenge.trim())
+        console.log(challenge.startsWith("30"))
+        console.log(challenge.endsWith("JavaScript"))
+        let searchForA = /a/gi
+        console.log(challenge.match(searchForA))
+        console.log("30 Days of".concat(" JavaScript"))
+        console.log("30 Days Of JavaScript ".repeat(2))
+
+
+        //Level2
+        console.log("The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help one another.")
+        console.log("Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead.")
+        let tenString = "10"
+        if(typeof(tenString) == typeof(10)){
+            console.log("They are equal")
+        }
+        else{
+            tenString = Number(tenString)
+            console.log(typeof(tenString) == typeof(10))
+        }
+        let language = "python"
+        let words = "jargon"
+        console.log(language.includes("on"))
+        console.log(words.includes("on"))
+        console.log(Math.floor(Math.random() * 100 + 1))
+        console.log(Math.floor(Math.random() *255 + 1))
+        console.log(Math.floor(Math.random() * (100 - 50 + 1) + 50))
+    </script>
+</body>
+</html>
