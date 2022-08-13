@@ -56,6 +56,35 @@
         console.log(Math.floor(Math.random() * 100 + 1))
         console.log(Math.floor(Math.random() *255 + 1))
         console.log(Math.floor(Math.random() * (100 - 50 + 1) + 50))
+        
+        let javascript = "JavaScript"
+        console.log(javascript[Math.floor(Math.random() * 10)])
+
+        // 1 1 1 1 1
+        // 2 1 2 4 8
+        // 3 1 3 9 27
+        // 4 1 4 16 64
+        // 5 1 5 25 125
+        console.log( 1,Math.pow(1,0),Math.pow(1,1), Math.pow(1,2), Math.pow(1,3), '\t')
+        console.log( 2,Math.pow(2,0),Math.pow(2,1), Math.pow(3,2), Math.pow(2,3), '\t')
+        console.log( 3,Math.pow(3,0),Math.pow(3,1), Math.pow(3,2), Math.pow(3,3), '\t')
+        console.log( 4,Math.pow(4,0),Math.pow(4,1), Math.pow(4,2), Math.pow(4,3), '\t')
+        console.log( 5,Math.pow(5,0),Math.pow(5,1), Math.pow(5,2), Math.pow(5,3), '\t')
+  
+
+        // Level 3
+        let sentenceBecause = "You cannot end a sentence with because because because is a conjunction"
+        let loveWorld = 'Love is the best thing in this world. Some found their love and some are still looking for their love.'
+        let pattern = /love/gi
+        let because = /because/gi
+        let resultBecause = sentenceBecause.match(/because/gi)
+        let result = loveWorld.match(pattern)
+        console.log(result.length)
+        console.log(resultBecause.length)
+
+        const dirtySentence = '%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching'
+        let regex = /[!@#\$%\^\&*\)\(+=._-]+$/g
+        console.log(dirtySentence.match(regex))
     </script>
 </body>
 </html>
