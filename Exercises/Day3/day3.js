@@ -28,3 +28,24 @@ let rarea  = rside1 * rside2 * 1
 let rperimeter = 2 * (rside1 + rside2)
 alert("The area of a rectangle is ",(rarea))
 alert("The perimeter of a rectangle is ",(rperimeter))
+
+//area of a circle
+let radius = prompt("Enter the raidus of the circle:", "Value goes here")
+let carea = 3.14 * radius * radius
+let circumfrence = 2 * 3.14 * radius
+alert("The area of a circle is: ",carea)
+alert("The perimeter of a circle is: ",circumfrence)
+
+//Testing if one is old enough to drive
+let yearOfBirth = prompt("Enter the year you were born: ")
+let leo  = new Date()
+let age = leo.getFullYear() - yearOfBirth
+if(age > 18){
+    console.log("You are ", age, ". You are old enough to drive ")
+}
+else{
+    let reminder = 18 - age
+    console.log("You are ", age, ". You will be allowed to drive after", reminder, "years.")
+}
+// Human readable time 
+console.log(`${leo.getFullYear()}-${leo.getMonth()}-${leo.getDay()} ${leo.getHours()}:${leo.getMinutes()}`)
