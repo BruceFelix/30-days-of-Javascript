@@ -14,7 +14,7 @@ uls.forEach((li, i) =>{
         li.style.backgroundColor = "red"
     }
 }
-git 
+
 )
 let content = document.querySelector('.wrapper')
 content.style.width = "600px"
