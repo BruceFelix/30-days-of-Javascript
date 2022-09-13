@@ -1,0 +1,29 @@
+#root{
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  margin: 100px auto;
+  text-align: center;
+}
+.even {
+  background-color: rgb(30, 226, 30);
+  width: 50px;
+  color: white;
+  padding: 6px;
+  margin: 2px;
+}
+
+.odd {
+  background-color: rgb(221, 221, 54);
+  width: 50px;
+  color: white;
+  padding: 6px;
+  margin: 2px;
+}
+.prime {
+  background-color: rgb(211, 18, 18);
+  width: 50px;
+  color: white;
+  padding: 6px;
+  margin: 2px;
+}

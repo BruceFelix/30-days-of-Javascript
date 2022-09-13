@@ -10,18 +10,18 @@ head1.textContent = "WORLD COUNTRIES LIST"
 head2.textContent = "Total Number of Countries: 193"
 paragraph1.textContent = "30DaysOfJavaScript:DOM-Day-2"
 paragraph2.textContent = "Author: Asabeneh Yetayeh"
-head1.style.fontSize = "40px"
-head.style.width = '1000px'
-head.style.width = '700px'
-head2.style.width = '100%'
-head2.style.textAlign = 'center'
-paragraph1.style.width = '100%'
-paragraph2.style.width = '100%'
-head1.style.width = '1000px'
-head.appendChild(head1)
-head.appendChild(head2)
-head.appendChild(paragraph1)
-head.appendChild(paragraph2)
+// head1.style.fontSize = "40px"
+// // head.style.width = '1000px'
+// head.style.width = '700px'
+// head2.style.width = '100%'
+// head2.style.textAlign = 'center'
+// paragraph1.style.width = '100%'
+// paragraph2.style.width = '100%'
+// head1.style.width = '1000px'
+// head.appendChild(head1)
+// head.appendChild(head2)
+// head.appendChild(paragraph1)
+// head.appendChild(paragraph2)
 
 for(let i = 0; i < countries.length; i++){
     let box = document.createElement('div')
