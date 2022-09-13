@@ -1,4 +1,3 @@
-let body = document.querySelector("body")
 let div = document.querySelector("div")
 for (let i = 0; i < 102; i++) {
     if (i % 2 === 0) {

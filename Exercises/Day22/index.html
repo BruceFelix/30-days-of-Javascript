@@ -6,8 +6,9 @@
     <title>Number-Generator</title>
     <style>
         * {
-    box-sizing: border-box;
-}
+            box-sizing: border-box;
+            margin: 0;
+        }
         body{
             font-family: Arial, Helvetica, sans-serif;
         }
@@ -17,7 +18,7 @@
         }
         h3, p {
             text-align: center;
-            text-decoration: underline;
+            /* text-decoration: underline; */
         }
         div{
              display:flex;
@@ -26,16 +27,32 @@
             justify-content: center;
             width: 350px;
             margin: auto;
+
+        }
+        .countries{
+            height: 1000px;
+            width: 900px;
+            display: flex;
+            flex-wrap: wrap;
         }
     </style>
 </head>
 <body>
-    <h1>Number Generator</h1>
-    <h3>30DaysOfJavaScript Dom Day2</h3>
-    <p>Author:Victor Kenneth</p>
     <div>
+        <h1>Number Generator</h1>
+        <h3>30DaysOfJavaScript Dom Day2</h3>
+        <p>Author:Victor Kenneth</p>
+        <div>
+    
+         </div>
+    </div>
+    <div class="header">
 
-     </div>
+    </div>
+    <div class="countries">
+
+    </div>
     <script src="day22.js"></script>
+    <script type="module" src="level2.js"></script>
 </body>
 </html>
